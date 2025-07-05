@@ -3,7 +3,7 @@ from subprocess import run
 
 run("clear", shell=True)
 
-R = '\033[1;31m' 
+P = '\033[1;31m' 
 G = '\033[2;32m' 
 
 print('''
@@ -37,7 +37,7 @@ def text(string):
     for Str in string:
         print(Str, end="", flush=True)
         sleep(3 / 1000)
-text(f'''{R}
+text(f'''{P}
 
 ██████╗ ███          ██████   ████   ████ ███    ██ 
 ██╔══██╗ ██          ██══╗██   ██║ █  ██║   ██  ██╝
